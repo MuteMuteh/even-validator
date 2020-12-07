@@ -14,9 +14,9 @@ public class Main {
             char[] charslt = usrinput.toCharArray();
             if (isNumber(usrinput)){
                 if (isEvenChar(charslt)) {
-                    System.out.println("All characters are even");
+                    System.out.println("All numbers are even");
                 } else {
-                    System.out.println("Not all characters are even");
+                    System.out.println("Not all numbers are even");
                 }
             }
         }
